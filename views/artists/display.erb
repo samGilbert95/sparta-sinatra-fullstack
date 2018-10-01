@@ -1,0 +1,10 @@
+<h1>DISPLAY PAGE</h1>
+<h2><%= @artist.first_name %></h3>
+<h3><%= @artist.last_name %></h3>
+<h3><%= @artist.dob %></h3>
+<a href="/artist"> Main Page</a>
+<a href="/artist/<%= @artist.id %>/edit"> Edit</a>
+<form class="" action="/artist/<%= @artist.id %>" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input class="btn btn-danger" type="submit" value="Delete">
+</form>
