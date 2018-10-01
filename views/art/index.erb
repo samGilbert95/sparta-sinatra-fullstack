@@ -1,0 +1,8 @@
+<h1>HOME</h1>
+<% @art.each do |art| %>
+<!-- <h2> <a href="/art/<%= art.id %>"> <%= art.pic_name %></a></h3> -->
+<!-- <h3><%= art.pic_date %></h3>
+<h4><%= art.artist_id %></h3> -->
+<a href="/art/<%= art.id %>"> <img src="<%= art.image %>" alt=""> </a>
+
+<% end %>

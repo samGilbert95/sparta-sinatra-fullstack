@@ -1,0 +1,10 @@
+<h1>DISPLAY PAGE</h1>
+<img src="<%= @art.image %>" alt="">
+<h2><%= @art.pic_name %></h3>
+<h3><%= @art.pic_date %></h3>
+<a href="/art"> Main Page</a>
+<a href="/art/<%= @art.id %>/edit"> Edit</a>
+<form class="" action="/art/<%= @art.id %>" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input class="btn btn-danger" type="submit" value="Delete">
+</form>

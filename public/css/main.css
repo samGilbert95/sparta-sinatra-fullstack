@@ -1,0 +1,17 @@
+body{
+  background: #FCF1D7 !important;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  border: 10px solid black !important;
+}
+
+h1{
+  margin: auto;
+}
